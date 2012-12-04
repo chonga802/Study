@@ -26,8 +26,10 @@
 </p>
 
 <p>
-  <b>Course:</b>
-  <%= @user.course %>
+  <b>Courses:</b><br/>
+  <% @user.courses.each do |current_course| %>
+    <%= link_to current_course.name, current_course %><br/>
+  <% end %>
 </p>
 
 

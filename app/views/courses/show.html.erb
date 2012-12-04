@@ -10,6 +10,13 @@
   <%= @course.name %>
 </p>
 
+<p>
+  <b>Users:</b>
+  <% @course.users.each do |current_user| %>
+    <%= link_to current_user.name, current_user %>
+  <% end %>
+</p>
+
 
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>
