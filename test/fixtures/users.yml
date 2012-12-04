@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  netid: MyString
+  email: MyString
+  residnetial_college: MyString
+  grade: 1
+  course: MyString
+
+two:
+  name: MyString
+  netid: MyString
+  email: MyString
+  residnetial_college: MyString
+  grade: 1
+  course: MyString
